@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+}
+.container{
+    background-color: #ffe5e5;   
+}
+.who_we_are {
+    font-size: 0.75rem;
+    font-family: "montserratregular", sans-serif;
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    padding-top: 140px; 
+    letter-spacing: 5px;
+  }
+.hello_namaste {
+    font-size: 48px;
+    font-family: "montserratregular", sans-serif;
+    color: rgb(14, 200, 203);
+    text-transform: uppercase;
+    line-height: 0.625;
+    text-align: center;
+    letter-spacing: 10px;
+} 
+.we_do{
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+    font-weight: normal;
+}
+.col-3 {
+    background-color: #f8dede;
+    border: 1px #eed4d4 solid;
+    margin: 105px auto;
+    text-align: center;
+    height: 420px;
+  }
+.web_design {
+    font-size: 21px;
+    font-family: "montserratregular", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.diamond {
+    margin-bottom: 43px;
+}
+.fresh {
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: #777777;
+    line-height: 1.571;
+    text-align: center;
+}
+.col-3:hover{
+    border: 1px solid #27b4b6;
+    background-color: #27b4b6;
+    color: white;
+}
+.col-3:hover .fresh{
+    color: white;
+}
+.anchor{
+    background-image: url('../images/Anchor.png');
+    width: 64px;
+    height: 64px;
+    margin: 60px 70px 60px 80px;  
+}
+.col-3:hover .anchor{
+    background-image: url('../images/Anchor_hover.png')
+}
+.diamond{
+    background-image: url('../images/Diamond.png');
+    width: 64px;
+    height: 64px;
+    margin: 60px 70px 47px 80px;
+}
+.col-3:hover .diamond{
+    background-image: url('../images/Diamond_hover.png')
+}
+.eyeglasses{
+    background-image: url('../images/Eyeglasses.png');
+    width: 63px;
+    height: 48px;
+    margin: 60px 70px 75px 80px;
+   
+}
+.col-3:hover .eyeglasses{
+    background-image: url('../images/Eyeglasses_hover.png')
+}
+.monitor{
+    background-image: url('../images/Monitor.png');
+    width: 64px;
+    height: 52px;
+    margin: 60px 70px 72px 80px;
+}
+.col-3:hover .monitor{
+    background-image: url('../images/Monitor_hover.png')
+}
