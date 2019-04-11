@@ -1,0 +1,14 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image: url(../img/fudi.jpg);
+    background-position: top;
+    min-height: 101vh;
+    font-family: inherit;
+    margin: 0;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
